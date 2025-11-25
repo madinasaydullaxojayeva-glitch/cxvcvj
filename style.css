@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.header {
+    background: #000;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.navbar input {
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero {
+    padding: 40px;
+}
+.hero {
+    background: url("https://your-image-here.jpg") no-repeat center;
+    background-size: cover;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.buy-btn {
+    margin-top: 15px;
+    background: #7fff00;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+.hero-button {
+    width: auto;       
+    display: inline-block;
+}
+.hero-button {
+    width: auto;
+    display: inline-block; 
+}
+
+.buy-btn {
+    background: #7fff00;
+    color: black;
+    padding: 12px 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+}
+
+
+
+.section-title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    
+}
+
+.card a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.training-banner {
+    display: flex;
+    background: white;
+    margin: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-right {
+    padding: 40px;
+    width: 50%;
+}
+
+.banner-right h2 {
+    color: #65B200;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.banner-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.train-btn {
+    background: #65B200;
+    border: none;
+    padding: 12px 22px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+span{
+    color: #65B200;
+}
+
+.text__45:hover{
+color: #7fff00;
+}
+.buy-btn:hover{
+background-color: red;
+
+}
+.kot{
+    color: red;
+}
+.train-btn:hover{
+    background-color: red;
+}
+.footer {
+  display: flex;
+  justify-content: space-between    ;
+   
+}
+
